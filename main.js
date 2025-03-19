@@ -81,7 +81,7 @@ rodadaER.prototype.displayInfo = function () {
 };
 
 function resultadosER(times, rodada, resultadoDaPartida, data) {
-  rodadaER.call(this, times, rodada, resultadoDaPartida, data);
+  rodadaBr.call(this, times, rodada, resultadoDaPartida, data);
 }
 
 resultadosER.prototype = Object.create(rodadaER.prototype);
